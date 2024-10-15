@@ -7,6 +7,8 @@ import Botao from './components/Botao'
 import Link from './components/Link'
 import Titulo from './components/Titulo'
 import Hora from './components/Bom'
+import DivE from './components/DivE'
+import Fragment from './components/Fragment'
 
 function App() {
  
@@ -28,6 +30,8 @@ function App() {
     <Titulo titulo="Somente a dor coletiva" subtitulo="Gera união"/>
     <br></br>
     <Hora queHora={true}/>
+    <DivE titulo="Falta de energia atinge SP" paragrafo1="São Paulo sem energia" paragrafo2="Muitos bairros sem energia" />
+    <Fragment subtitulo1={"Giovanni"} subtitulo2={"Hernando"} paragrafo={"Deus perdoa"}/>
     </>
   )
 }
